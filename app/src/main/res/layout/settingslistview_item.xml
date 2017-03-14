@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="20dip"
+        android:paddingBottom="10dip">
+<ImageView
+    android:id="@+id/list_item_image"
+    android:layout_width="25dip"
+    android:layout_height="25dip"
+    android:gravity="top"
+    android:src="@drawable/watercancircle"
+    android:layout_marginRight="5dip"/>
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_weight="7.5"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4e4e4e"
+        android:textSize="15sp"
+        android:text="Mon,Feb 13,08:24 PM"
+        android:id="@+id/listview_item_date" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="#4e4e4e"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Order ID : 1231asdf2 "
+        android:id="@+id/bookingId" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="#4e4e4e"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Delivery Status : "
+                android:id="@+id/orderStatus"
+                />
+        <!--<View
+            android:layout_width="15dip"
+            android:layout_height="15dip"
+            android:background="@drawable/dotted"
+            android:layout_gravity="center"/>-->
+
+    </LinearLayout>
+            <!--
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Source"
+                    android:id="@+id/textView6"
+                    android:drawableLeft="@mipmap/ic_add_alert_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Destination"
+                    android:id="@+id/textView8"
+                    android:gravity="bottom"
+                    android:drawableLeft="@mipmap/ic_add_alert_black_24dp"/>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_weight="2.5"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical|right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="\u20B9: 100"
+                android:singleLine="true"
+                android:textColor="#4e4e4e"
+                android:id="@+id/payableAmnt" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dip"
+        android:background="@drawable/layout"
+        android:layout_marginLeft="40dip"></View>
+
+</LinearLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="10dp"
+    android:background="#e6e6e6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:background="@drawable/layout">
+       <!-- <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="100dip"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:background="@android:color/transparent"/>-->
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+
+    android:layout_gravity="center">
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+
+            android:background="@android:color/transparent" />
+<ImageView
+    android:layout_width="20dip"
+    android:layout_height="20dip"
+    android:adjustViewBounds="true"
+    android:src="@android:drawable/ic_menu_edit"
+    android:gravity="center"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    />
+
+</RelativeLayout></FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/settings_layout_item_background"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:src="@mipmap/username_icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dip"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/consumerFullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:text="Profile name" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/settings_layout_item_background"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:src="@mipmap/gender_icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dip"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/consumerGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:text="Gender" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/settings_layout_item_background"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/text22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:src="@mipmap/birthday_icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dip"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/consumerDob"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:text="Date Of Birth" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:weightSum="10"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:src="@mipmap/email_icon" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_weight="10"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dip"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/consumerEmailId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:text="Email" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/basicProfileEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:paddingLeft="10dip"
+                android:text="edit"
+                android:textSize="14sp"
+                android:textColor="#477ed7"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dip"
+        android:padding="10dip"
+        android:background="@drawable/layout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="18sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/text315"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:src="@mipmap/home_icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dip"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/userDefaultAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:text="@string/address" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--<TextView
+            android:id="@+id/AddrssEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dip"
+            android:text="edit"
+            android:textSize="14sp"
+            android:textColor="#477ed7"/>-->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:textSize="14sp"
+                android:textColor="#477ed7"
+                android:id="@+id/AddrssEdit"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

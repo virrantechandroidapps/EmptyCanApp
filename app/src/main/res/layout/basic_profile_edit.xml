@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:gravity="center_horizontal"
+    android:background="#e6e6e6">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/view_margin"
+            android:padding="@dimen/view_margin"
+            android:background="@drawable/layout">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edittextHeight"
+                android:id="@+id/cnsumrFullName"
+               android:singleLine="true"
+                android:hint="Full Name"
+                android:inputType="text"
+
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="@dimen/view_margin"
+                android:paddingLeft="@dimen/view_padding"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edittextHeight"
+                android:id="@+id/cnsumerGender"
+                android:background="@drawable/edittext_background"
+                android:singleLine="true"
+                android:hint="Gender"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/view_margin"
+                android:paddingLeft="@dimen/view_padding"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edittextHeight"
+                android:id="@+id/cnsumrEmailId"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="Email Id"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="@dimen/view_margin"
+                android:paddingLeft="@dimen/view_padding"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edittextHeight"
+                android:id="@+id/cnsumerDob"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="Date Of Birth"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/edittext_background"
+                android:onClick="showTimePickerDialog"
+                android:layout_marginTop="@dimen/view_margin"
+                android:paddingLeft="@dimen/view_padding"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="@dimen/edittextHeight"
+                android:text="Update"
+                android:id="@+id/basicProfileEditBtn"
+                android:layout_gravity="center"
+                android:background="@drawable/button_background"
+                android:layout_marginTop="@dimen/view_margin"/>
+
+            <!-- <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="New Button"
+                 android:id="@+id/button2" />-->
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

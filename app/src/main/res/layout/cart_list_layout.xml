@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_marginLeft="12dp"
+android:layout_marginRight="12dp"
+android:layout_gravity="center_vertical"
+android:layout_height="wrap_content"
+android:background="@drawable/demo_native_item_selector"
+android:minHeight="45dp">
+
+<!--<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:textSize="18sp"
+    android:textColor="#ABABAB"
+    android:layout_weight="3"
+    tools:text="GOOG"
+    android:layout_centerInParent="true"
+    android:layout_alignParentLeft="true"
+    android:id="@+id/productName"/>
+
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:textColor="#4285F4"
+    android:layout_toLeftOf="@+id/productPrice"
+    tools:text="544.66"
+    android:textSize="18sp"
+    android:layout_centerInParent="true"
+    android:layout_weight="1"
+    android:id="@+id/productQty"
+    android:gravity="right"/>
+
+
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:textColor="#29A426"
+        android:textSize="16sp"
+        tools:text="-0.28"
+        android:layout_weight="1"
+        android:id="@+id/productPrice"
+        android:layout_marginRight="12dp"
+        android:gravity="right"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:textSize="18sp"
+        android:textColor="#ABABAB"
+        android:layout_weight="3"
+        android:singleLine="true"
+        tools:text="GOOG"
+        android:ellipsize="end"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/productName"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/productQty"
+        android:layout_toStartOf="@+id/productQty" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4285F4"
+        android:layout_toLeftOf="@+id/productPrice"
+        tools:text="544.66"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:id="@+id/productQty"
+        android:gravity="right"/>
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="right"
+        android:layout_toLeftOf="@+id/total"
+        android:textColor="#29A426"
+        tools:text="-0.28"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:id="@+id/productPrice"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:textColor="#29A426"
+        android:textSize="16sp"
+        tools:text="-0.05%"
+        android:layout_weight="1"
+        android:id="@+id/total"
+        android:layout_marginRight="12dp"
+        android:gravity="right"/>
+
+
+
+</RelativeLayout>

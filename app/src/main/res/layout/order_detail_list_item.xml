@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dip">
+        <TextView android:layout_width="0dip"
+            android:layout_weight="5"
+            android:text=""
+            android:id="@+id/order_detail_list_item_name"
+            android:textSize="13sp"
+            android:textColor="#4e4e4e"
+            android:gravity="center"/>
+
+        <TextView android:layout_width="0dip"
+            android:layout_weight="2"
+            android:text="Unit"
+            android:id="@+id/order_detail_list_item_unit"
+            android:textSize="13sp"
+            android:textColor="#4e4e4e"
+            android:gravity="center"/>
+
+        <TextView android:layout_width="0dip"
+            android:layout_weight="2"
+            android:text="Cost"
+            android:id="@+id/order_detail_list_item_cost"
+            android:textSize="13sp"
+            android:textColor="#4e4e4e"
+            android:gravity="center"/>
+
+    </TableRow>
+
+</LinearLayout>

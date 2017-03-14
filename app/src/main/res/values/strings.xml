@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">EMPTYCAN</string>
+
+
+    <string name="title_activity_welcome">How it Works!</string>
+    <string name="address">New no:4,Manthaveli street,Manthaveli,Chennai-28.</string>
+
+    <string-array name="fruitName">
+        <item>EmptyCan</item>
+        <item>Bislleri</item>
+        <item>Aqua</item>
+        <item>Fina</item>
+        <item>EmptyCan</item>
+        <item>Bislleri</item>
+        <item>Aqua</item>
+        <item>Fina</item>
+        <item>Fina</item>
+    </string-array>
+
+    <string-array name="fruitImages">
+        <item>@mipmap/wateracan</item>
+        <item>@mipmap/wateracannn</item>
+        <item>@mipmap/rrwateracannn</item>
+        <item>@mipmap/rwateracannn</item>
+        <item>@mipmap/rwateracannn</item>
+        <item>@mipmap/rwateracannn</item>
+        <item>@mipmap/rwateracannn</item>
+        <item>@mipmap/rwateracannn</item>
+        <item>@mipmap/rwateracannn</item>
+    </string-array>
+
+
+    <string name="rs_symbol">\u20B9 500</string>
+    <string-array name="Price">
+        <item>\u20B9 35 </item>
+        <item>\u20B9 60</item>
+        <item>\u20B9 55</item>
+        <item>\u20B9 60</item>
+        <item>\u20B9 60</item>
+        <item>\u20B9 60</item>
+        <item>\u20B9 60</item>
+        <item>\u20B9 60</item>
+        <item>\u20B9 60</item>
+    </string-array>
+    <string name="search_result">Search Result!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Type and Search</string>
+    <string name="menu_search">Search</string>
+</resources>

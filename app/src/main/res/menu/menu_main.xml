@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FavouritesList">
+
+    <item
+        android:id="@+id/action_overflow"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@mipmap/menudot">
+    <menu>
+        <group android:id="@+id/group1" android:checkableBehavior="none">
+        <item
+        android:id="@+id/action_orders_list"
+        android:orderInCategory="100"
+        android:title="Orders List"
+        app:showAsAction="never|withText"
+        android:icon="@mipmap/purchaseorder"/>
+        </group>
+        <group android:id="@+id/group2">
+    <item
+        android:id="@+id/action_myProfile_list"
+        android:orderInCategory="102"
+        android:title="My Profile"
+        app:showAsAction="never|withText"
+        android:icon="@mipmap/ic_person_black_24dp"/>
+        </group>
+        <group android:id="@+id/group3">
+            <item
+                android:id="@+id/action_notification_list"
+                android:orderInCategory="102"
+                android:title="Notification List"
+                app:showAsAction="never|withText"
+                android:icon="@mipmap/notificationicon"/>
+        </group>
+        <group android:id="@+id/group4">
+            <item
+                android:id="@+id/action_address_list"
+                android:orderInCategory="102"
+                android:title="Address Form"
+                app:showAsAction="never|withText"
+                android:icon="@mipmap/homeicon"/>
+        </group>
+        <group android:id="@+id/group5">
+            <item
+                android:id="@+id/action_sign_out"
+                android:orderInCategory="102"
+                android:title="Sign Out"
+                app:showAsAction="never|withText"
+                android:icon="@mipmap/signout"/>
+        </group>
+        <group android:id="@+id/group6">
+            <item
+                android:id="@+id/action_address_list1"
+                android:orderInCategory="102"
+                android:title="Address List"
+                app:showAsAction="never|withText"
+                android:icon="@drawable/addressicon"/>
+        </group>
+        <group android:id="@+id/group7">
+            <item
+                android:id="@+id/referralform"
+                android:orderInCategory="102"
+                android:title="Share and Earn"
+                app:showAsAction="never|withText"
+                android:icon="@mipmap/purchaseorder"/>
+        </group>
+    </menu>
+    </item>
+
+</menu>

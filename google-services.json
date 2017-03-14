@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "941741448910",
+    "firebase_url": "https://homeserv-a4085.firebaseio.com",
+    "project_id": "homeserv-a4085",
+    "storage_bucket": "homeserv-a4085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941741448910:android:33226c9ae946acc1",
+        "android_client_info": {
+          "package_name": "com.meshyog.emptycan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941741448910-9kbdrhtk3eqphov5h8bdpgpjrbk499d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDElRgNGXe4hZKZTpxZIrT9SY8oTwqV9qk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
